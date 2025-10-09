@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "schema": "https://jsonresume.org/schema",
+    "version": "2025.10.0",
+    "lastUpdated": "2025-10-09"
+  },
+  "basics": {
+    "name": "Matthew (Matt) Fee",
+    "label": "Senior Software Test Engineer / SDET",
+    "email": "mfee21@gmail.com",
+    "phone": "+1-515-979-9443",
+    "url": "TODO",                       // personal site/portfolio
+    "location": {
+      "city": "Denver",                    // e.g., "Denver"
+      "region": "CO",                  // e.g., "CO"
+      "countryCode": "US",
+      "address": "1070 South Leyden Street",
+      "postalCode": "80224"
+    },
+    "profiles": [
+      { "network": "LinkedIn", "username": "TODO", "url": "https://www.linkedin.com/in/matthewrfee/" },
+      { "network": "GitHub",   "username": "TODO", "url": "TODO" }
+    ],
+    "workEligibility": {
+      "authorizedUS": true,
+      "requireSponsorship": false,
+      "securityClearance": null
+    },
+    "summary": "Senior QA/SDET focused on reliable, maintainable UI/API automation frameworks, Playwright/TypeScript, and CI/CD. Mentors teams, reduces flakiness, and accelerates releases.",
+    "keywords": ["SDET", "QA Automation", "Playwright", "TypeScript", "CI/CD", "Test Architecture"]
+  },
+  "work": [
+    {
+      "id": "work_legalshield",
+      "name": "LegalShield / IDShield (PPLSI)",
+      "position": "Senior Software Test Engineer",
+      "startDate": "2021-05",
+      "endDate": null,
+      "summary": "Lead modernization of test automation and mentoring across teams.",
+      "highlights": [
+        "Created new automation framework using Playwright + TypeScript.",
+        "Migrated legacy regression to modern framework and standards.",
+        "Mentored manual testers and junior test engineers."
+      ],
+      "location": "TODO",
+      "url": "TODO"
+    },
+    {
+      "id": "work_businessolver",
+      "name": "Businessolver",
+      "position": "Test Engineer",
+      "startDate": "2019-06",
+      "endDate": "2021-05",
+      "summary": "Planned and executed automated tests; API testing and Java unit/integration tests.",
+      "highlights": [
+        "Created API test suites using Postman.",
+        "Developed unit/integration tests in Java.",
+        "Participated in agile ceremonies; monitored automation failures."
+      ],
+      "location": "TODO",
+      "url": "TODO"
+    },
+    {
+      "id": "work_blndspt",
+      "name": "Blndspt Web Development",
+      "position": "Quality Assurance Engineer",
+      "startDate": "2015-10",
+      "endDate": "2019-06",
+      "summary": "Automation for a major airline with Selenium/SpecFlow/C#; release support and QA process improvements.",
+      "highlights": [
+        "Built and maintained Selenium + SpecFlow/C# test suites.",
+        "Supported releases from development through production.",
+        "Mentored junior QA staff and improved QA processes."
+      ],
+      "location": "TODO",
+      "url": "TODO"
+    },
+    {
+      "id": "work_roledex",
+      "name": "RoleDex (side project)",
+      "position": "Product Manager / UX Researcher",
+      "startDate": "2018-01",
+      "endDate": "2020-01",
+      "summary": "Formalized product strategy using Jobs-to-Be-Done; ran end-to-end UX research.",
+      "highlights": [
+        "Defined JTBD to guide marketing and product development.",
+        "Designed and executed research plans; recruited and interviewed users."
+      ],
+      "location": "TODO",
+      "url": "https://roledex.com"
+    },
+    {
+      "id": "work_cfass",
+      "name": "Comprehensive Family and Soldier Services",
+      "position": "Master Resilience Trainer & Performance Expert",
+      "startDate": "2013-04",
+      "endDate": "2015-09",
+      "summary": "Taught large classes and coached Army leaders/soldiers in resilience and performance.",
+      "location": "TODO",
+      "url": "TODO"
+    },
+    {
+      "id": "work_emc",
+      "name": "EMC Insurance",
+      "position": "Assistant Programmer Analyst",
+      "startDate": "2006-04",
+      "endDate": "2007-08",
+      "summary": "Code maintenance/development for personal auto system; Unisys BIS/MAPPER.",
+      "location": "TODO",
+      "url": "TODO"
+    },
+    {
+      "id": "work_realpro",
+      "name": "RealPro Software",
+      "position": "Junior Software Engineer",
+      "startDate": "2014-01",
+      "endDate": "2015-01",
+      "summary": "Stored/retrieved/manipulated data; modified software; prepared reports.",
+      "location": "TODO",
+      "url": "TODO",
+      "notes": "Dates/title from older resume image; please confirm."
+    }
+  ],
+  "education": [
+    {
+      "id": "edu_du",
+      "institution": "University of Denver",
+      "area": "Sport & Performance Psychology",
+      "studyType": "MA",
+      "startDate": "TODO",
+      "endDate": "TODO",
+      "gpa": "TODO",
+      "location": "Denver, CO"
+    },
+    {
+      "id": "edu_isu_mis",
+      "institution": "Iowa State University",
+      "area": "Management Information Systems",
+      "studyType": "BS",
+      "startDate": "TODO",
+      "endDate": "TODO",
+      "gpa": "TODO",
+      "location": "Ames, IA"
+    },
+    {
+      "id": "edu_isu_psych",
+      "institution": "Iowa State University",
+      "area": "Psychology",
+      "studyType": "BS",
+      "startDate": "TODO",
+      "endDate": "TODO",
+      "gpa": "TODO",
+      "location": "Ames, IA"
+    },
+    {
+      "id": "edu_gmu",
+      "institution": "George Mason University",
+      "area": "Educational Psychology",
+      "studyType": "PhD coursework (1 year)",
+      "startDate": "TODO",
+      "endDate": "TODO",
+      "location": "Fairfax, VA"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "JavaScript Front-End Boot Camp",
+      "issuer": "DaVinci Coders",
+      "date": "TODO",
+      "url": "TODO"
+    }
+  ],
+  "skills": [
+    { "name": "Playwright", "level": "expert", "keywords": ["TypeScript", "fixtures", "trace", "reporters"] },
+    { "name": "TypeScript / JavaScript", "level": "advanced" },
+    { "name": "Selenium", "level": "advanced", "keywords": ["WebDriver", "SpecFlow", "Cucumber"] },
+    { "name": "C#", "level": "intermediate" },
+    { "name": "Java", "level": "intermediate" },
+    { "name": "Postman / API testing", "level": "advanced" },
+    { "name": "Jira / Agile", "level": "advanced" },
+    { "name": "CI/CD (GitHub Actions)", "level": "advanced" },
+    { "name": "TODO", "level": "TODO" }
+  ],
+  "projects": [
+    {
+      "id": "proj_funstack",
+      "name": "Funstack Games LLC",
+      "roles": ["Co-founder"],
+      "startDate": "TODO",
+      "endDate": null,
+      "summary": "Indie tabletop games; print-and-play distribution; emergent-strategy design.",
+      "url": "https://funstackgames.com",
+      "keywords": ["games", "design", "publishing"]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "volunteer": [],
+  "languages": [{ "language": "English", "fluency": "Native" }],
+  "interests": ["AI/agents", "game design", "mentoring"],
+  "references": [{ "name": "Available upon request", "reference": "" }],
+  "documents": [
+    { "id": "doc_resume_pdf", "type": "pdf", "path": "TODO" }
+  ],
+  "questionBank": {
+    "workAuthStatement": "I am authorized to work in the U.S. and do not require current or future sponsorship.",
+    "noticePeriodDays": 14,
+    "rolePreferences": {
+      "titles": ["SDET", "Test Architect", "QA Automation Engineer"],
+      "workModes": ["remote", "hybrid-Denver"],
+      "baseSalaryMinUSD": 140000
+    }
+  ],
+  "privacy": {
+    "defaultVisibility": "recruiters",
+    "fieldVisibility": {
+      "email": "recruiters",
+      "phone": "recruiters",
+      "address": "private",
+      "documents": "recruiters"
+    }
+  }
+}
