@@ -11,6 +11,8 @@ from google.adk.runners import InMemoryRunner
 from google.adk.tools import FunctionTool
 from google.genai import types
 from google.adk.events import Event
+from google.adk.models.lite_llm import LiteLlm
+
 
 # --- Define Tool Functions ---
 # These functions simulate the actions of the specialist agents.
@@ -48,14 +50,14 @@ info_tool = FunctionTool(info_handler)
 # Define specialized sub-agents equipped with their respective tools
 booking_agent = Agent(
     name="Booker",
-    model="gemini-2.0-flash",
+    model=LiteLlm(model='openai/gpt-5-mini-2025-08-07'),
     description="A specialized agent that handles all flight and hotel booking requests by calling the booking tool.",
     tools=[booking_tool]
 )
 
 info_agent = Agent(
     name="Info",
-    model="gemini-2.0-flash",
+    model=LiteLlm(model='openai/gpt-5-mini-2025-08-07'),
     description="A specialized agent that provides general information and answers user questions by calling the info tool.",
     tools=[info_tool]
 )
@@ -63,7 +65,7 @@ info_agent = Agent(
 # Define the parent agent with explicit delegation instructions
 coordinator = Agent(
     name="Coordinator",
-    model="gemini-2.0-flash",
+    model=LiteLlm(model='openai/gpt-5-mini-2025-08-07'),
     instruction=(
         "You are the main coordinator. Your only task is to analyze incoming user requests "
         "and delegate them to the appropriate specialist agent. Do not try to answer the user directly.\n"
