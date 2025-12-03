@@ -1,0 +1,395 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Matthew Fee",
+    "label": "Senior Software Test Engineer",
+    "email": "mfee21@gmail.com",
+    "phone": "+1-515-979-9443",
+    "location": {
+      "address": "1070 South Leyden Street",
+      "postalCode": "80224",
+      "city": "Denver",
+      "region": "CO",
+      "countryCode": "US"
+    },
+    "summary": "10-year QA/SDET with 4 years of Playwright and TypeScript experience, specializing in building reliable, maintainable UI automation frameworks. Possesses a unique combination of technical ability and behavioral and organizational insight stemming from a background in performance psychology. Eagerly digging into AI and Agentic workflows. ",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "mfee21@gmail.com",
+        "url": "https://www.linkedin.com/in/matthewrfee/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "LegalShield",
+      "position": "Senior Software Test Engineer",
+      "url": "https://www.legalshield.com/",
+      "startDate": "2021-05",
+      "endDate": "2999-01",
+      "summary": "Spearheaded the modernization of frontend test automation by building a new UI automation framework from scratch using TypeScript and Playwright. Successfully transitioned the company from WebdriverIO/JavaScript to the new framework, training and mentoring manual QA and junior automation engineers to adopt the new technology stack. Led efforts to standardize test writing practices, significantly improving maintainability and reliability.",
+      "highlights": [
+        "Spearheaded the company to transition all frontend automation from WebdriverIO/JavaScript to Playwright/TypeScript, developing the framework from scratch and leading company-wide adoption and training.",
+        "Developed and enforced test writing standards to ensure maintainability and reliability of automated tests.",
+        "Led the effort to catalog all test cases into a test case management system, a first for the company, improving test coverage and traceability."
+      ],
+      "location": "Ada, OK"
+    },
+    {
+      "name": "Businessolver",
+      "position": "Test Engineer",
+      "url": "https://businessolver.com/",
+      "startDate": "2019-06",
+      "endDate": "2021-05",
+      "summary": "Designed and executed comprehensive automated testing strategies, including API testing and Java-based unit/integration tests",
+      "highlights": [
+        "Created API test suites using Postman.",
+        "Developed unit/integration tests in Java.",
+        "Monitored and diagnosed automation test failures",
+        "Actively participated in all agile ceremonies, contributing to sprint planning, retrospectives, and daily stand-ups."
+      ],
+      "location": "Denver, CO"
+    },
+    {
+      "name": "Blndspt Web Development",
+      "position": "Quality Assurance Engineer",
+      "url": "https://www.blndspt.com/",
+      "startDate": "2015-10",
+      "endDate": "2019-06",
+      "summary": "Automation for a major airline with Selenium/SpecFlow/C#; release support and QA process improvements.",
+      "highlights": [
+        "Built and maintained Selenium + SpecFlow/C# test suites.",
+        "Supported releases from development through production.",
+        "Mentored junior QA staff."
+      ],
+      "location": "Denver, CO"
+    },
+    {
+      "name": "Comprehensive Family and Soldier Services",
+      "position": "Master Resilience Trainer & Performance Expert",
+      "url": "https://www.usar.army.mil/CSF/",
+      "startDate": "2013-04",
+      "endDate": "2015-09",
+      "summary": "Trained and coached United States Armed Services personnel at Joint-Base San Antonio in resilience and mental performance skills, facilitating classes, workshops, and individual sessions to enhance their mental toughness, emotional intelligence, and overall well-being.",
+      "highlights": [
+        "Facilitated large classes (50+), small workshops (4-25), and individual sessions to develop resilience and mental performance skills, including assertive communication, attention control, confidence building, mental imagery, energy management, goal-setting, and team-building.",
+        "Supported the Warrior in Transition Unit, aiding soldiers recovering from injury or illness by enhancing their mental and emotional resilience.",
+        "Selected and delivered curriculum for a 40-hour course in Performance Psychology and Resiliency, delivered monthly to senior leaders of the United States Army.",
+        "Built rapport and fostered open communication by modeling vulnerability and self-awareness, encouraging students to examine and improve their behaviors."
+      ],
+      "location": "San Antonio, TX"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Denver",
+      "area": "Sport & Performance Psychology",
+      "studyType": "Master of Arts",
+      "startDate": "2008-08",
+      "endDate": "2010-06",
+      "score": "3.85",
+      "location": "Denver, CO"
+    },
+    {
+      "institution": "Iowa State University",
+      "area": "Management Information Systems",
+      "studyType": "Bachelor of Science",
+      "startDate": "1997-08",
+      "endDate": "2001-12",
+      "score": "2.96",
+      "location": "Ames, IA"
+    },
+    {
+      "institution": "Iowa State University",
+      "area": "Psychology",
+      "studyType": "Bachelor of Science",
+      "startDate": "2005-06",
+      "endDate": "2007-12",
+      "score": "2.84",
+      "location": "Ames, IA"
+    },
+    {
+      "institution": "George Mason University",
+      "area": "Educational Psychology",
+      "studyType": "PhD coursework (1 year)",
+      "startDate": "2011-08",
+      "endDate": "2012-07",
+      "score": "3.23",
+      "location": "Fairfax, VA"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Playwright",
+      "level": "proficient",
+      "keywords": [
+        "TypeScript",
+        "fixtures",
+        "trace",
+        "reporters"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "proficient",
+      "keywords": []
+    },
+    {
+      "name": "Selenium",
+      "level": "proficient",
+      "keywords": [
+        "WebDriver",
+        "SpecFlow",
+        "Cucumber"
+      ]
+    },
+    {
+      "name": "C#",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "API testing",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Postman",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "REST",
+      "level": "basic",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Jira",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Agile/Scrum",
+      "level": "proficient",
+      "keywords": []
+    },
+    {
+      "name": "Frontend Test Automation",
+      "level": "advanced",
+      "keywords": []
+    },
+    {
+      "name": "Manual Testing",
+      "level": "advanced",
+      "keywords": []
+    },
+    {
+      "name": "Test Planning",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Behavior-Driven Development (BDD)",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "CI/CD (GitHub Actions)",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "Mentoring",
+      "level": "advanced",
+      "keywords": []
+    },
+    {
+      "name": "Test Architecture",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Performance Psychology",
+      "level": "proficient",
+      "keywords": []
+    },
+    {
+      "name": "Coaching",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Public Speaking",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Writing",
+      "level": "advanced",
+      "keywords": []
+    },
+    {
+      "name": "Critical Thinking",
+      "level": "advanced",
+      "keywords": []
+    },
+    {
+      "name": "Problem Solving",
+      "level": "advanced",
+      "keywords": []
+    },
+    {
+      "name": "Collaboration",
+      "level": "advanced",
+      "keywords": []
+    },
+    {
+      "name": "Adaptability",
+      "level": "advanced",
+      "keywords": []
+    },
+    {
+      "name": "Agentic AI",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "Prompt Engineering",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "AI-assisted Development",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "AI-assisted Testing",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "Context Engineering",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "AI design",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "Game Design ",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "Training",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Leadership",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Resilience",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Stress Management",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Emotional Intelligence",
+      "level": "advanced",
+      "keywords": []
+    },
+    {
+      "name": "Mindfulness",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Goal Setting",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Motivation",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Team Building",
+      "level": "intermediate",
+      "keywords": []
+    }
+  ],
+  "certificates": [
+    {
+      "name": "JavaScript Front-End Boot Camp",
+      "issuer": "DaVinci Coders",
+      "date": "2015-01-01",
+      "url": "https://www.linkedin.com/school/davinci-coders/about/"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "native"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Interests",
+      "keywords": [
+        "AI/agentic workflows",
+        "game design",
+        "mentoring",
+        "board games",
+        "hiking",
+        "skiing",
+        "camping",
+        "travel"
+      ]
+    }
+  ],
+  "awards": [],
+  "volunteer": [],
+  "projects": [],
+  "publications": [],
+  "references": [
+    {
+      "name": "Woody Whitman",
+      "reference": "Contact details available upon request"
+    },
+    {
+      "name": "Sue Adasiewicz",
+      "reference": "Contact details available upon request"
+    },
+    {
+      "name": "Dr. Diana Sanchez Lira",
+      "reference": "Contact details available upon request"
+    }
+  ]
+}

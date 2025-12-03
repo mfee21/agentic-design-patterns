@@ -1,0 +1,20 @@
+[
+  {
+    "scraper": "linkedin_ppr",
+    "label": "Linkedin Jobs Scraper - PPR",
+    "actor_id": "curious_coder/linkedin-jobs-scraper",
+    "pricing": {
+      "cost_per_1000_results": 1.00,
+      "currency": "USD"
+    },
+    "input": {
+      "count": 200,
+      "scrapeCompany": true,
+      "urls": [
+        {"name": "playwright_automation", "url": "https://www.linkedin.com/jobs/search?keywords=Playwright%20Automation&location=Denver%20Metropolitan%20Area&geoId=90000034&f_TPR=&f_WT=3%2C2&f_E=3%2C4&position=1&pageNum=0"},
+        {"name": "qa_engineer", "url": "https://www.linkedin.com/jobs/search?keywords=QA%20Engineer&location=Denver%20Metropolitan%20Area&geoId=90000034&f_E=4&f_TPR=&f_WT=2%2C3&position=1&pageNum=0"}
+      ]
+    },
+    "info_url": "https://apify.com/curious_coder/linkedin-jobs-scraper"
+  }
+]
